@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: gainsboro;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#counter{
+    font-size: 150px;
+
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.buttons button{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+#auto{
+    font-size: 40px;
+}
